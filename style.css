@@ -1,0 +1,26 @@
+body{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coolman{
+    width: 150px;
+}
+
+.card{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color:#2b2839;
+    border-bottom: 8px solid #d8cefe;
+    border-radius: 6px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
